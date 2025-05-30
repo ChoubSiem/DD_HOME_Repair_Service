@@ -1,10 +1,10 @@
 import React from 'react'
-import image3 from "../../assets/image3.png";
-import image from "../../assets/image.png";
-import image7 from "../../assets/image7.png";
-import image1 from "../../assets/image1.png";
-import image2 from "../../assets/image2.png";
-import image8 from "../../assets/image8.png";
+import electrical from "../../assets/electrical.jpg";
+import plumbing from "../../assets/plumbing.jpg";
+import electronic from "../../assets/electronic.jpg";
+import masonry from "../../assets/masonry.png";
+import roofing from "../../assets/roofing.jpg";
+import decor from "../../assets/decor.jpg";
 import video from "../../assets/videos.mp4";
 import { motion } from "framer-motion";
 import { MdBorderColor } from "react-icons/md";
@@ -35,7 +35,7 @@ const Hero = () => {
               <h2 className="font-semibold text-lg mb-2">Electrical Services</h2>
             </div>
             <img
-              src={image3}
+              src={electrical}
               alt="Electrical Services"
               className="w-full h-48 object-cover"
             />
@@ -50,7 +50,7 @@ const Hero = () => {
               <h2 className="font-semibold text-lg mb-2">Plumbing Services</h2>
             </div>
             <img
-              src={image}
+              src={plumbing}
               alt="Plumbing Services"
               className="w-full h-48 object-cover"
             />
@@ -62,60 +62,60 @@ const Hero = () => {
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden  border border-gray-300 hover:shadow-xl cursor-pointer">
             <div className="p-4 text-center">
-              <h2 className="font-semibold text-lg mb-2">Electronic Services</h2>
+              <h2 className="font-semibold text-lg mb-2">Masonry Services</h2>
             </div>
             <img
-              src={image7}
+              src={electronic}
               alt="Electronic Services"
               className="w-full h-48 object-cover"
             />
             <div className="p-4 text-center">
-              <p className="text-gray-600">See More Electronic Services...</p>
+              <p className="text-gray-600">See More Masonry Services...</p>
             </div>
           </div>
 
           {/* Card 4 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden  border border-gray-300 hover:shadow-xl cursor-pointer">
             <div className="p-4 text-center">
-              <h2 className="font-semibold text-lg mb-2">Electronic Services</h2>
+              <h2 className="font-semibold text-lg mb-2">Masonry Services</h2>
             </div>
             <img
-              src={image1}
+              src={masonry}
               alt="Electronic Services"
               className="w-full h-48 object-cover"
             />
             <div className="p-4 text-center">
-              <p className="text-gray-600">See More Electronic Services...</p>
+              <p className="text-gray-600">See More Masonry Services...</p>
             </div>
           </div>
 
           {/* Card 5 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden  border border-gray-300 hover:shadow-xl cursor-pointer">
             <div className="p-4 text-center">
-              <h2 className="font-semibold text-lg mb-2">Electronic Services</h2>
+              <h2 className="font-semibold text-lg mb-2">Roofing Services</h2>
             </div>
             <img
-              src={image2}
+              src={roofing}
               alt="Electronic Services"
               className="w-full h-48 object-cover"
             />
             <div className="p-4 text-center">
-              <p className="text-gray-600">See More Electronic Services...</p>
+              <p className="text-gray-600">See More Roofing Services...</p>
             </div>
           </div>
 
           {/* Card 6 */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden  border border-gray-300 hover:shadow-xl cursor-pointer">
             <div className="p-4 text-center">
-              <h2 className="font-semibold text-lg mb-2">Electronic Services</h2>
+              <h2 className="font-semibold text-lg mb-2">Decor Services</h2>
             </div>
             <img
-              src={image8}
+              src={decor}
               alt="Electronic Services"
               className="w-full h-48 object-cover"
             />
             <div className="p-4 text-center">
-              <p className="text-gray-600">See More Electronic Services...</p>
+              <p className="text-gray-600">See More Decor Services...</p>
             </div>
           </div>
         </div>
