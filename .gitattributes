@@ -1,0 +1,20 @@
+# Normalize text files to use LF in the repo, convert to CRLF on checkout (Windows-friendly)
+* text=auto
+
+# Explicitly set line endings for common file types
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+
+# Prevent line ending conversions for binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
